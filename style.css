@@ -383,7 +383,7 @@ p {
 
 /* About */
 .about {
-    background: var(--clr-grey);
+    background: var(--clr-black);
     color: var(--clr-black);
 }
 
@@ -398,12 +398,12 @@ p {
 }
 
 a.hashnode {
-    color: var(--clr-black);
+    color: var(--clr-red);
     background: none;
 }
 
 a.hashnode:hover {
-    color: var(--clr-red);
+    color: var(--clr-grey);
     background: none;
 }
 
@@ -430,11 +430,11 @@ a.hashnode:hover {
     color: var(--clr-white);
 }
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
     .about {
-        background: linear-gradient(hsla(0, 0%, 5%, 0.61), hsla(0, 0%, 49%, 0.767)), url("./images/pc2.jpg") center/cover no-repeat;
+        background: linear-gradient(hsla(0, 0%, 5%, 0.61), hsla(0, 0%, 47%, 0.767)), url("./images/pc2.jpg") center/cover no-repeat;
     }
-}
+}*/
 
 /* Projects */
 .projects {
