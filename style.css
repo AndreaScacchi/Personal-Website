@@ -338,6 +338,7 @@ p {
 .hero-btn {
     background: var(--clr-black);
     color: var(--clr-white);
+    width: 33%;
 }
 
 .hero-btn:hover {
