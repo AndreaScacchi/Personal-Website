@@ -934,7 +934,11 @@ a.hashnode:hover {
     background: var(--clr-grey);
 }
 
-.card-back {
+.card-front a {
+    margin: 0;
+}
+
+/*.card-back {
     background: var(--clr-red);
     transform: rotateY(180deg);
     display: grid;
@@ -948,15 +952,15 @@ a.hashnode:hover {
 
 .card-back a {
     color: var(--clr-white);
-}
+}*/
 
-.card:hover .card-front{
+/*.card:hover .card-front{
     transform: rotateY(-180deg);
-}
+}*/
 
-.card:hover .card-back{
+/*.card:hover .card-back{
     transform: rotateY(0);
-}
+}*/
 
 .card-info {
     padding: 1rem 1.5rem;
@@ -994,6 +998,16 @@ a.hashnode:hover {
     color: var(--clr-red);
     font-size: 0.85rem;
 }
+
+/*.card-footer button {
+    /*background: var(--clr-black);
+    color: var(--clr-white);
+}
+
+.card-footer a {
+    color: var(--clr-white);
+    font-size: 0.8rem;
+}*/
 
 .blog-center {
     display: grid;
