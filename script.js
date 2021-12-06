@@ -12,6 +12,7 @@ $(document).ready(function () {
   });
 });
 
+// Global variables
 const navbar = document.querySelector("#nav");
 const navBtn = document.querySelector("#nav-btn");
 const closeBtn = document.querySelector("#close-btn");
