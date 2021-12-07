@@ -12,7 +12,7 @@
   });
 });*/
 
-
+// Second option to animate the home section
 let typed = new Typed(".typing", {
   strings: ["Self-Taught Software Developer", "Freelance Developer", "Blogger"],
   typeSpeed: 100,
