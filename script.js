@@ -1,5 +1,5 @@
 // Using jQuery to animate the home
-$(document).ready(function () {
+/*$(document).ready(function () {
   let typed = new Typed(".typing", {
     strings: [
       "Self-Taught Software Developer",
@@ -10,6 +10,14 @@ $(document).ready(function () {
     backSpeed: 70,
     loop: true,
   });
+});*/
+
+
+let typed = new Typed(".typing", {
+  strings: ["Self-Taught Software Developer", "Freelance Developer", "Blogger"],
+  typeSpeed: 100,
+  backSpeed: 70,
+  loop: true,
 });
 
 // Global variables
