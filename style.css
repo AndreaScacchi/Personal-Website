@@ -674,7 +674,7 @@ a.hashnode:hover {
 .header:after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 1;
     left: 50%;
     transform: translateX(-50%);
     height: 4px;
