@@ -540,6 +540,8 @@ a.hashnode:hover {
     font-family: var(--ff-Exo);
     border-radius: var(--radius);
     border: none;
+    letter-spacing: var(--spacing);
+    height: 1.7em;
 }
 
 @media screen and (min-width: 676px) {
