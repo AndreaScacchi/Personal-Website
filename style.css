@@ -524,26 +524,6 @@ a.hashnode:hover {
     transform: scale(0.8);
 }
 
-/*.link-github {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin: 2em 0;
-    cursor: default;
-}
-
-.btn-github {
-    font-size: 1.2em;
-    cursor: pointer;
-    color: var(--clr-white);
-    background: var(--clr-red);
-    font-family: var(--ff-Exo);
-    border-radius: var(--radius);
-    border: none;
-    letter-spacing: var(--spacing);
-    height: 1.7em;
-}*/
-
 .position {
     margin-left: auto;
     margin-right: auto;
