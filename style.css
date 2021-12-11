@@ -524,14 +524,15 @@ a.hashnode:hover {
     transform: scale(0.8);
 }
 
-.btn-github {
+.link-github {
     display: flex;
     text-align: center;
     justify-content: center;
-    text-decoration: none;
-    color: var(--clr-black);
-    font-size: 1.4em;
     margin: 2em 0;
+}
+
+.btn-github {
+    font-size: 1.2em;
 }
 
 @media screen and (min-width: 676px) {
