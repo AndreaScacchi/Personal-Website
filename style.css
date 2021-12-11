@@ -524,7 +524,7 @@ a.hashnode:hover {
     transform: scale(0.8);
 }
 
-.link-github {
+/*.link-github {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -542,7 +542,7 @@ a.hashnode:hover {
     border: none;
     letter-spacing: var(--spacing);
     height: 1.7em;
-}
+}*/
 
 @media screen and (min-width: 676px) {
     .projects-center {
