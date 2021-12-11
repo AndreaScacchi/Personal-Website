@@ -529,10 +529,17 @@ a.hashnode:hover {
     text-align: center;
     justify-content: center;
     margin: 2em 0;
+    cursor: default;
 }
 
 .btn-github {
     font-size: 1.2em;
+    cursor: pointer;
+    color: var(--clr-white);
+    background: var(--clr-red);
+    font-family: var(--ff-Exo);
+    border-radius: var(--radius);
+    border: none;
 }
 
 @media screen and (min-width: 676px) {
