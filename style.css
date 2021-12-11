@@ -530,6 +530,8 @@ a.hashnode:hover {
     justify-content: center;
     text-decoration: none;
     color: var(--clr-black);
+    font-size: 1.4em;
+    margin: 2em 0;
 }
 
 @media screen and (min-width: 676px) {
