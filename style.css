@@ -544,6 +544,25 @@ a.hashnode:hover {
     height: 1.7em;
 }*/
 
+.spot {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.svg-wrapper {
+    margin-top: 0;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 @media screen and (min-width: 676px) {
     .projects-center {
         display: grid;
