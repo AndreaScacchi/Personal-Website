@@ -563,6 +563,11 @@ a.hashnode:hover {
     margin-right: 5px;
 }
 
+#text {
+    margin-top: -35px;
+    text-align: center;
+}
+
 @media screen and (min-width: 676px) {
     .projects-center {
         display: grid;
