@@ -408,6 +408,11 @@ a.hashnode:hover {
     background: none;
 }
 
+a.studies-link {
+    color: var(--clr-red);
+    background: none;
+}
+
 .about-title {
     text-align: center;
     margin-bottom: 2rem;
