@@ -413,6 +413,11 @@ a.studies-link {
     background: none;
 }
 
+a.studies-link:hover {
+    color: var(--clr-grey);
+    background: none;
+}
+
 .about-title {
     text-align: center;
     margin-bottom: 2rem;
