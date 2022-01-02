@@ -470,6 +470,10 @@ a.studies-link:hover {
     color: var(--clr-red);
 }
 
+.projects-title a:hover {
+    color: var(--clr-white);
+}
+
 .works {
     color:var(--clr-black);
 }
