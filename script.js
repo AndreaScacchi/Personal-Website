@@ -12,8 +12,8 @@ $(document).ready(function () {
   });
 });
 
-// Second option to animate the home section, however, this piece of code
-// have problem with Vanta library
+// Second option to animate the home section, however, 
+//this piece of code have problem with Vanta library
 /*let typed = new Typed(".typing", {
   strings: ["Self-Taught Software Developer", "Freelance Developer", "Blogger"],
   typeSpeed: 100,
