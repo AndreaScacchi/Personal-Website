@@ -1103,6 +1103,12 @@ a, .contact__subtitle {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
+@media screen and (min-width: 250px) {
+  body {
+    overflow: hidden;
+  }
+}
+
 @media screen and (max-width: 350px) {
   .container {
     margin-left: var(--mb-1);
