@@ -2,7 +2,7 @@
 $(document).ready(function () {
     let typed = new Typed(".typing", {
         strings: [
-            "Self-Taught Software Developer",
+            "Junior Full-Stack Developer",
             "Freelance Developer",
             "Blogger",
         ],
@@ -14,7 +14,7 @@ $(document).ready(function () {
 
 // Second option to animate the footer section
 let typed = new Typed(".footer__subtitle", {
-    strings: ["Self-Taught Software Developer", "Freelance Developer", "Blogger"],
+    strings: ["Junior Full-Stack Developer", "Freelance Developer", "Blogger"],
     typeSpeed: 100,
     backSpeed: 70,
     loop: true,
