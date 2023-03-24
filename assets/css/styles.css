@@ -918,12 +918,13 @@ img {
 }
 
 .project__title {
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-75);
 }
 
 .project__description {
   margin-bottom: var(--mb-1-5);
+  font-size: var(--small-font-size);
 }
 
 .project__title,
