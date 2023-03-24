@@ -601,23 +601,23 @@ img {
 }
 
 .skills__html {
-  width: 75%;
+  width: 60%;
 }
 
 .skills__css {
-  width: 80%;
-}
-
-.skills__js {
   width: 70%;
 }
 
-.skills__jQuery {
+.skills__js {
   width: 50%;
 }
 
+.skills__jQuery {
+  width: 40%;
+}
+
 .skills__typescript {
-  width: 60%;
+  width: 40%;
 }
 
 .skills__node {
@@ -625,7 +625,7 @@ img {
 }
 
 .skills__express {
-  width: 50%;
+  width: 40%;
 }
 
 .skills__c {
