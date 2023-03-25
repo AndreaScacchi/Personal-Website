@@ -1,15 +1,11 @@
 // Using jQuery to animate the home
 $(document).ready(function () {
-    let typed = new Typed(".typing", {
-        strings: [
-            "Junior Engineer",
-            "Computer Science Student",
-            "Blogger",
-        ],
-        typeSpeed: 100,
-        backSpeed: 70,
-        loop: true,
-    });
+  let typed = new Typed(".typing", {
+    strings: ["Junior Engineer", "Computer Science Student", "Blogger"],
+    typeSpeed: 100,
+    backSpeed: 70,
+    loop: true,
+  });
 });
 
 // Second option to animate the footer section
@@ -149,8 +145,8 @@ window.addEventListener("scroll", scrollUp);
 const themeButton = document.getElementById("theme-button");
 const darkTheme = "dark-theme";
 const iconTheme = "uil-sun";
-const contactSubPhone = document.querySelector('.phone');
-const contactSubLocation = document.querySelector('.location');
+const contactSubPhone = document.querySelector(".phone");
+const contactSubLocation = document.querySelector(".location");
 
 // Previously selected topic (if user selected)
 const selectedTheme = localStorage.getItem("selected-theme");
@@ -183,17 +179,16 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
 
-
 // set year
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
 
 // Initialize AOS library to create dynamic sections
 AOS.init({
-    startEvent: "DOMContentLoaded",
-    duration: 2000,
-    delay: 0,
-    easing: "ease",
-    once: false,
-    mirror: false,
+  startEvent: "DOMContentLoaded",
+  duration: 2000,
+  delay: 0,
+  easing: "ease",
+  once: false,
+  mirror: false,
 });
