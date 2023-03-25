@@ -1023,7 +1023,7 @@ a, .contact__subtitle {
 }
 
 .footer__subtitle {
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
 }
 
 .footer__links {
