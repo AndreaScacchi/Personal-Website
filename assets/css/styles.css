@@ -501,8 +501,8 @@ img {
     height: 40px;
     display: inline-block;
     border-radius: 3px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 #shape {
