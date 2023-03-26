@@ -141,6 +141,14 @@ function scrollUp() {
 }
 window.addEventListener("scroll", scrollUp);
 
+/*==================== SMOOTH BUTTON ====================*/
+$(document).ready(function(){
+  $('#scroll-up').click(function(){ 
+    $("html, body").animate({ scrollTop: 0 }, 600); 
+    return false; 
+  }); 
+});
+
 /*==================== DARK LIGHT THEME ====================*/
 const themeButton = document.getElementById("theme-button");
 const darkTheme = "dark-theme";
