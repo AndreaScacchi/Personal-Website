@@ -1,7 +1,7 @@
 // Using jQuery to animate the home
 $(document).ready(function () {
   let typed = new Typed(".typing", {
-    strings: ["Junior Engineer", "Computer Science Student", "Blogger"],
+    strings: ["Software Developer", "Computer Science Student", "Blogger"],
     typeSpeed: 100,
     backSpeed: 70,
     loop: true,
@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 // Second option to animate the footer section
 let typed = new Typed(".footer__subtitle", {
-  strings: ["Junior Engineer", "Computer Science Student", "Blogger"],
+  strings: ["Software Developer", "Computer Science Student", "Blogger"],
   typeSpeed: 100,
   backSpeed: 70,
   loop: true,
