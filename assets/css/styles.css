@@ -8,7 +8,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 5 /*550*/; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 140 /*550*/; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -602,7 +602,7 @@ img {
 }
 
 .skills__html {
-  width: 60%;
+  width: 70%;
 }
 
 .skills__css {
@@ -610,7 +610,7 @@ img {
 }
 
 .skills__js {
-  width: 50%;
+  width: 60%;
 }
 
 .skills__typescript {
@@ -618,11 +618,11 @@ img {
 }
 
 .skills__python {
-  width: 60%;
+  width: 70%;
 }
 
 .skills__node {
-  width: 40%;
+  width: 50%;
 }
 
 .skills__express {
@@ -630,19 +630,7 @@ img {
 }
 
 .skills__c {
-  width: 30%;
-}
-
-.skills__figma {
-  width: 90%;
-}
-
-.skills__photoshop {
-  width: 90%;
-}
-
-.skills__sketch {
-  width: 90%;
+  width: 40%;
 }
 
 .skills__close .skills__list {
@@ -934,7 +922,8 @@ img {
 }
 
 .project__img {
-  width: 232px;
+  width: 282px;
+  height: 200px;
   justify-self: center;
   border-radius: 10%;
   margin-bottom: var(--mb-2);
