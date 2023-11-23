@@ -962,8 +962,12 @@ img {
   font-weight: var(--font-medium);
 }
 
-.email, .linkedin {
+.email, .linkedin, .blog {
   color: var(--first-color);
+}
+
+.contact__information div span {
+  color: var(--first-color)
 }
 
 a, .contact__subtitle {
